@@ -6,7 +6,7 @@ class Artist
   attr_accessor :name
   
   @@all = []
-  @@all_songs = []
+  @all_songs = []
   
   def self.all
     @@all
