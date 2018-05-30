@@ -5,8 +5,6 @@ class Song
     @name = name
   end
   
-  
-  
   attr_accessor :name, :artist
 
   def self.new_by_filename(filename)
