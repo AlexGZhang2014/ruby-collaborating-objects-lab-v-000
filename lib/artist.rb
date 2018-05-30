@@ -13,7 +13,7 @@ class Artist
   end
   
   def songs
-    @all_songs
+    @@all_songs
   end
   
   def save
